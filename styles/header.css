@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: darkblue;
+    align-items: center;
+    color: dodgerblue;
+}
+
+.left-section {
+    margin-left: 10px;
+    flex: 1
+}
+
+.right-section {
+    width: 300px;
+}
