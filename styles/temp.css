@@ -4,3 +4,12 @@
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.github-link {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.playground-link {
+    color: white;
+}
