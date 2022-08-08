@@ -1,76 +1,57 @@
+
+
 body {
     margin: 0;
 }
 
 .header {
-    background-color: rgb(20, 18, 18);
-    width: 100%;
+    background-color: rgb(20, 20, 20);
     height: 40px;
     color: white;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.home-header {
-    margin-left: 700px;
+.left-section {
     flex: 1;
-    height: 20px;
     font-size: 20px;
-    transition: color;
-    transition-duration: 0.2s;
-
+    margin-left: 10px;
 }
 
-.about-header {
-    flex: 1;
-    font-size: 20px;
-    height: 20px;
+.name-icon {
+    display: inline-block;
     transition: color;
-    transition-duration: 0.2s;
-
+    transition-duration: 1s;
 }
 
-.projects-header {
-    flex: 1;
-    height: 20px;
+.name-icon:hover {
+    color: gold;
+}
+
+.right-section {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.home-header, .about-header, .projects-header, .playground-header, .photos-header {
+    text-align: center;
     font-size: 20px;
+    height: 20px;
     transition: color;
     transition-duration: 0.2s;
+
 }
 
 .playground-header {
-    flex: 1;
-    height: 20px;
-    font-size: 20px;
-    transition: color;
-    transition-duration: 0.2s;
+    margin-left: 12px;
+    margin-right: 10px;
 }
 
-.photos-header {
-    flex: 1;
-    height: 20px;
-    font-size: 20px;
-    transition: color;
-    transition-duration: 0.2s;
-}
 
-.home-header:hover {
+.home-header:hover, .about-header:hover, .projects-header:hover, .playground-header:hover, .photos-header:hover {
     color: rgb(160, 160, 160);
-}
-
-.about-header:hover {
-    color: rgb(160, 160, 160);
-}
-
-.projects-header:hover {
-    color: rgb(160, 160, 160);
-}
-
-.playground-header:hover {
-    color: rgb(160, 160, 160);
-}
-
-.photos-header:hover {
-    color: rgb(160, 160, 160);
+    cursor: pointer;
 }
