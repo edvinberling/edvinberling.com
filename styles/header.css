@@ -1,17 +1,76 @@
+body {
+    margin: 0;
+}
+
 .header {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    background-color: darkblue;
+    background-color: rgb(20, 18, 18);
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: inline-flex;
     align-items: center;
-    color: dodgerblue;
+    justify-content: space-between;
 }
 
-.left-section {
-    margin-left: 10px;
-    flex: 1
+.home-header {
+    margin-left: 700px;
+    flex: 1;
+    height: 20px;
+    font-size: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+
 }
 
-.right-section {
-    width: 300px;
+.about-header {
+    flex: 1;
+    font-size: 20px;
+    height: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+
+}
+
+.projects-header {
+    flex: 1;
+    height: 20px;
+    font-size: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+}
+
+.playground-header {
+    flex: 1;
+    height: 20px;
+    font-size: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+}
+
+.photos-header {
+    flex: 1;
+    height: 20px;
+    font-size: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+}
+
+.home-header:hover {
+    color: rgb(160, 160, 160);
+}
+
+.about-header:hover {
+    color: rgb(160, 160, 160);
+}
+
+.projects-header:hover {
+    color: rgb(160, 160, 160);
+}
+
+.playground-header:hover {
+    color: rgb(160, 160, 160);
+}
+
+.photos-header:hover {
+    color: rgb(160, 160, 160);
 }

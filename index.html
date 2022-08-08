@@ -8,16 +8,22 @@
     </head>
 
     <body>
-
         <!--HEADER-->
         <div class="header">
-            <div class="left-section">
-                Header
+            <div onclick="openHome();" class="home-header">
+                Home
             </div>
-            <div class="right-section">
-               Menu
-               <a class="playground-link" href="https://edvinberling.com/playground">Playground</a>
-               <a class="projects-link" href="https://edvinberling.com/projects">Projects</a>
+
+            <div onclick="openAbout();" class="about-header">
+                About
+            </div>
+
+            <div onclick="openProjects();" class="projects-header">
+                Projects
+            </div>
+
+            <div onclick="openPlayground();" class="playground-header">
+                Playground
             </div>
         </div>
 
@@ -26,6 +32,6 @@
         </div>
         
         <a class="github-link" href="https://github.com/edvinberling" target="_blank">My GitHub</a>
-
+        <script src="header.js"></script>
     </body>
 </html>
