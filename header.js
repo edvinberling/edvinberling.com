@@ -2,20 +2,25 @@
 
 function openHome()
 {
-    window.location.href = "/index.html";
+    window.location.href = "https://edvinberling.com/";
 }
 
 function openAbout()
 {
-    window.location.href = "/about.html";
+    window.location.href = "https://edvinberling.com/about";
 }
 
 function openProjects()
 {
-    window.location.href = "/projects.html";
+    window.location.href = "https://edvinberling.com/projects";
 }
 
 function openPlayground()
 {
-    window.location.href = "/playground.html";
+    window.location.href = "https://edvinberling.com/playground";
+}
+
+function openPhotos() 
+{
+    window.location.href = "https://edvinberling.com/photos";
 }
