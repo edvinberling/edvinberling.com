@@ -1,3 +1,5 @@
+//Solve .html issue
+
 function openHome()
 {
     window.location.href = "/index.html";

@@ -15,23 +15,27 @@
     }
 }
 
-.github-link {
-    color: darkblue;
-    font-size: 20px;
-}
-
-.playground-link {
-    color: white;
-}
-
-.projects-link {
-    color: white;
-}
-
-.project-one {
-    margin-left: 3px;
-    padding-left: 5px;
-    width: 300px;
-    border-width: 1px;
-    border-style: solid;
-}
+.collapsible {
+    background-color: f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin-left: 10px;
+    width: 180px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: gray;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 200px;
+    background-color: #f1f1f1;
+  }

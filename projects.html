@@ -8,6 +8,31 @@
     
     <body>
         <h1>Current Projects</h1>
-        <p class="project-one">This website started development in August 2022. I am learning HTML, CSS and JavaScript to build and expand my personal website.</p>
+
+        <button type="button" class="collapsible">edvinberling.com</button>
+        <div class="content">
+            <p>
+            This website started development in August 2022. I am learning HTML, CSS and JavaScript to build and expand my personal website.
+            </p>
+        </div>
+
+        <script>
+            //change this
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+        </script>
+
     </body>
 </html>
