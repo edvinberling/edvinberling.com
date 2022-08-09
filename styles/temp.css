@@ -1,0 +1,37 @@
+.name {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: name-animation 10s;
+}
+
+@keyframes name-animation {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.github-link {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.playground-link {
+    color: white;
+}
+
+.projects-link {
+    color: white;
+}
+
+.project-one {
+    margin-left: 3px;
+    padding-left: 5px;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+}

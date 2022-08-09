@@ -1,0 +1,56 @@
+
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(20, 20, 20);
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    flex: 1;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.name-icon {
+    display: inline-block;
+    transition: color;
+    transition-duration: 1s;
+}
+
+.name-icon:hover {
+    color: gold;
+}
+
+.right-section {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.home-header, .about-header, .projects-header, .playground-header, .photos-header {
+    text-align: center;
+    font-size: 20px;
+    height: 20px;
+    transition: color;
+    transition-duration: 0.2s;
+
+}
+
+.playground-header {
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+
+.home-header:hover, .about-header:hover, .projects-header:hover, .playground-header:hover, .photos-header:hover {
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+}
