@@ -1,11 +1,11 @@
 function openHome()
 {
-    window.location.href = "https://edvinberling.com";
+    window.location.href = "/index.html";
 }
 
 function openAbout()
 {
-    window.location.href = "https://edvinberling.com/about";
+    window.location.href = "/about.html";
 }
 
 function openProjects()
@@ -15,5 +15,5 @@ function openProjects()
 
 function openPlayground()
 {
-    window.location.href = "https://edvinberling.com/playground";
+    window.location.href = "/playground.html";
 }
