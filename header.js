@@ -10,7 +10,7 @@ function openAbout()
 
 function openProjects()
 {
-    window.location.href = "https://edvinberling.com/projects";
+    window.location.href = "/projects.html";
 }
 
 function openPlayground()
