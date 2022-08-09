@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: name-animation 10s;
+    animation: name-animation 1s;
 }
 
 @keyframes name-animation {
